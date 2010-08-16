@@ -1,0 +1,22 @@
+Para que mesmo?
+===============
+
+Sua salvação para escrever User Stories!
+
+URL: http://paraquemesmo.heroku.com
+
+Todos sabemos a sintaxe sugerida pelo Mike Cohn para escrita de User Stories:
+
+Como: <um papel>
+Eu posso: <uma ação>
+Para: <um valor de negócio>
+
+É muito, muito fácil escrever o Como e o Eu posso. É intuitivo! É simples! Porém
+o Para: poder ser muito complicado, afinal o que seria valor de negócio mesmo?
+Você pode trabalhar numa Telecom, num Banco ou até para o Governo. Nesses casos
+o valor de negócio não é claro e para falar a verdade nem precisaria me preocupar
+com ele, pois Telecoms, Bancos e Governo tem dinheiro de sobra!
+
+De qualquer forma, para não sair da moda Agile, o Para que mesmo salva sua pele
+fornecendo justificativas plausíveis para ajudar o seu Product Owner escrever 
+"Para" matadores!
