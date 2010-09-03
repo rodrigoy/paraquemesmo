@@ -1,0 +1,37 @@
+!!! Strict
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %title Para que mesmo? - Gerador alet&oacute;rio para justificar User Stories
+    %link{:charset => "utf-8", :href => "/base.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    %meta{:content => "Trabalha com User Stories, Hist&oacute;rias do Usu&aacute;rio e XP, Extreme Programming, Scrum? Se tiver dificuldade em achar o famoso 'Para que' da sua hist&oacute;ria essa &eacute; a aplica&ccedil;&atilde;o certa para voc&ecirc;...", :name => "description"}/
+    %meta{:content => "User Story, User Story, Product Backlog, Como, Posso, Para, scrum, extreme programming, agile, card", :name => "keywords"}/
+
+  %body
+
+    #main
+      %a{:href => "http://github.com/rodrigoy/paraquemesmo", :target => "_blank"}
+        %img{:alt => "Fork me on GitHub", :src => "http://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png", :style => "position: absolute; top: 0; right: 0; border: 0;"}/
+
+      #header
+        %img{:alt => "", :src => "/logo.png"}/
+        #slogan Sua salva&ccedil;&atilde;o para escrever User Stories
+        #slogan2 Powered by &copy;Automagic Business Value Justification Technology
+
+      #container
+        #story
+          %p Como: ____________________
+          %p Eu posso: _____________________
+          %p
+            Para:
+            %strong= @paraque
+        #button
+          %p
+            %a{:href => "/"} Outra sugest&atilde;o >>
+
+      #footer
+        By
+        %a{:href => "http://twitter.com/rodrigoy"} @rodrigoy
+        |
+        %a{:href => "http://github.com/rodrigoy/paraquemesmo/blob/master/README"} Vis&atilde;o no Github
+        | Aplica&ccedil;&atilde;o criada em 1 hora com Ruby, Sinatra no Heroku. Homenagem ao #horaextra!
+
