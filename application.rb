@@ -1,12 +1,12 @@
 require 'rubygems'
 require 'sinatra'
 require 'erb'
-require File.dirname(__FILE__) + '/lib/paraque'
+require File.dirname(__FILE__) + '/lib/para_que'
 
 set :views, File.dirname(__FILE__) + '/views'
 
 get '/' do
-  @paraque = Paraque.mesmo?
+  @paraque = ParaQue.mesmo?
   erb :index
 end
 
